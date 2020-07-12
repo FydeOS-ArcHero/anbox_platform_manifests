@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="anbox" fetch="https://github.com/anbox/" revision="anbox/master" />
+  <remote  name="anbox-fydeos" fetch="https://github.com/FydeOS" review="https://github.com/FydeOS" />
 
   <remote  name="aosp"
            revision="refs/tags/android-7.1.1_r13"
@@ -518,5 +519,5 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/anbox" name="anbox" remote="anbox" revision="master" />
+  <project path="vendor/anbox" name="anbox_fydeos" remote="anbox-fydeos" revision="master" />
 </manifest>
